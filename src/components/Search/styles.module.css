@@ -41,6 +41,7 @@
     padding: 1vh 3vw;
     background: #333;
     cursor: pointer;
+    min-width: 15%;
 }
 
 .button_icon {

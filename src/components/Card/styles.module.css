@@ -65,8 +65,9 @@
     border: none;
     outline: none;
     border-radius: 15px;
-    padding: 1vh 0;
+    padding: 1.5vh 0;
     color: #fff;
     background: rgb(5, 180, 5);
     cursor: pointer;
+    font-size: 16px;
 }
