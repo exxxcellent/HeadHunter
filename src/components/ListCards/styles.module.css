@@ -1,0 +1,23 @@
+.head {
+    margin-bottom: 2.5vh;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-bottom: 2.5vh;
+}
+
+.button {
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    background: rgb(54, 138, 255);
+    border-radius: 5px;
+    padding: 1.5vh 3vw;
+    width: 100%;
+}

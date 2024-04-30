@@ -1,0 +1,32 @@
+.activity {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    border-radius: 5px;
+    padding: 2vh 3vw;
+    gap: 2vh;
+    margin-bottom: 2.5vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+input[type='range'] {
+    -webkit-appearance: none !important;
+    background: #444;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.range::-webkit-slider-thumb {
+    display: none;
+}
