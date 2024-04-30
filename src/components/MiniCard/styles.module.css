@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 130px;
+    height: 130px;
+    padding: 2vh 3vw;
+    background: #333;
+    gap: 1vh;
+    border-radius: 5px;
+}
+
+.icon {
+    font-size: 32px;
+}
+
+.head {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.description {
+    color: #999;
+    font-size: 14px;
+}
