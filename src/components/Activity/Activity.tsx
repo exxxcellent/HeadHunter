@@ -18,7 +18,8 @@ function Activity(): JSX.Element {
             </header>
             <input type="range"
                 className={styles.range}
-                value={50} />
+                value={50}
+            />
         </div>
     )
 }
