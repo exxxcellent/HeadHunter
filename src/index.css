@@ -13,6 +13,8 @@ body {
     background: #111;
     color: #fff;
     overflow-x: hidden;
+    position: relative;
+    margin-bottom: 8vh;
 }
 
 input {
@@ -23,4 +25,8 @@ input {
     width: 90%;
     margin: 0 auto;
     padding: 2.5vh 0;
+}
+
+.active {
+    color: rgb(54, 138, 255);
 }
