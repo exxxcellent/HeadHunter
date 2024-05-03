@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    font-size: 20px;
+}
+
+.icon {
+    color: #fff;
+}
+
+.controls {
+    display: flex;
+    gap: 5vw;
+}
