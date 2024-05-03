@@ -1,0 +1,44 @@
+.company {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2vh;
+    width: 100%;
+    padding: 2vh 3vw;
+    border-radius: 5px;
+    background: #333;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.stars {
+    font-size: 12px;
+    display: flex;
+    gap: 1vw;
+}
+
+.city {
+    font-size: 14px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #666;
+    background-position: center center;
+}

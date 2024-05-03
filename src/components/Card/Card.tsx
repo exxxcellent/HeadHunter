@@ -1,3 +1,5 @@
+// react-router-dom
+import { Link } from "react-router-dom"
 // icons
 import { FaCheckCircle, FaHeart, FaRubleSign, FaSuitcase } from "react-icons/fa"
 // styles
@@ -6,7 +8,8 @@ import styles from "./styles.module.css"
 // Activity
 function Card(): JSX.Element {
     return (
-        <div className={styles.card}>
+        <Link to="/vacancy/1"
+            className={styles.card}>
             <header className={styles.header}>
                 <div className={styles.header_text}>Сейчас просматривают 22 чел.</div>
                 <FaHeart className={styles.favorite} />
@@ -25,7 +28,7 @@ function Card(): JSX.Element {
                 <p className={styles.employerIsActive}>Рабодатель сейчас онлайн</p>
                 <button className={styles.button}>Откликнуться</button>
             </footer>
-        </div>
+        </Link>
     )
 }
 

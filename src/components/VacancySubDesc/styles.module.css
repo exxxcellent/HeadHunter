@@ -1,0 +1,10 @@
+.desc {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.desc_el {
+    font-size: 14px;
+    font-weight: 200;
+}
